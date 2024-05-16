@@ -5,7 +5,7 @@ authors = ["amir0ghahremanian <amir0ghahremanian@outlook.com>"]
 keywords = ["esp", "audio", "codec"]
 categories = ["embedded", "api-bindings", "compression", "encoding",
 	"multimedia::audio", "multimedia::encoding"]
-description = "FFI-Binding to esp_audio_codec esp-adf component"
+description = "esp_audio_codec esp-adf component with FFI bindings for esp-rs"
 # readme = "README.md"
 # documentation = ""
 edition = "2021"
