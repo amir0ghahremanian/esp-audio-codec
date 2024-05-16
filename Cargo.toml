@@ -1,0 +1,23 @@
+[package]
+name = "esp-audio-codec"
+version = "0.1.0"
+authors = ["amir0ghahremanian <amir0ghahremanian@outlook.com>"]
+keywords = ["esp", "audio", "codec"]
+categories = ["embedded", "api-bindings", "compression", "encoding",
+	"multimedia::audio", "multimedia::encoding"]
+description = "FFI-Binding to esp_audio_codec esp-adf component"
+# readme = "README.md"
+# documentation = ""
+edition = "2021"
+
+[dependencies]
+
+[build-dependencies]
+log = "0.4"
+
+[build-dependencies.bindgen]
+version = "0.58"
+optional = true
+
+[features]
+generate_binding = ["bindgen"]
